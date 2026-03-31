@@ -1,0 +1,17 @@
+=========== RINGKASAN STATISTIK NUMPY ==========
+Rata-rata : 72.50
+Median    : 71.00
+Std Dev   : 11.34
+Min       : 57
+Max       : 92
+
+========== RINGKASAN DATAFRAME ==========
+Jumlah data      : 5
+Jumlah LULUS     : 3
+Jumlah TIDAK LULUS : 2
+
+========== RINGKASAN DARI CLASS GRADEBOOK ==========
+Jumlah data : 5
+Rata-rata   : 75.80
+Pass rate   : 60.00%
+
