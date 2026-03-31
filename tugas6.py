@@ -37,7 +37,6 @@ def tulis_ringkasan_awal():
         f.write(f"Std Dev   : {std_dev:.2f}\n")
         f.write(f"Min       : {nilai_min}\n")
         f.write(f"Max       : {nilai_max}\n\n")
-
         f.write("========== RINGKASAN DATAFRAME ==========\n")
         f.write(f"Jumlah data      : {len(df)}\n")
         f.write(f"Jumlah LULUS     : {len(df[df['status']=='LULUS'])}\n")
@@ -77,10 +76,12 @@ if __name__ == "__main__":
     print(f"Std Dev   : {std_dev:.2f}")
     print(f"Min       : {nilai_min}")
     print(f"Max       : {nilai_max}")
-
+    print(" ")
+    
     print("========== PANDAS ==========")
     print(df.head())
-
+    print(" ")
+    
     print("========== OOP: GRADEBOOK ==========")
     gb = GradeBook(df)
     print(gb)
@@ -92,3 +93,4 @@ if __name__ == "__main__":
     gb.save_summary(file_path)
 
     print(f"Ringkasan telah disimpan ke file: {file_path}")
+    print(" ")
